@@ -12,12 +12,14 @@ body {
 }
 body {
   background-color: #000;
-  background-image: linear-gradient(#101922, #275451);
+  /*background-image: linear-gradient(#101922, #275451);*/
   background-size: 100%;
   text-align: center;
   line-height: 1.45;
 }
-
+main {
+  background-color: #000;
+}
 h1 {
     color: #fff;
 }
@@ -59,14 +61,16 @@ h1 {
 }
 .header .btn-book-a-table,
 .header .btn-book-a-table:focus {
-  font-size: 14px;
-  color: var(--color-default);
-  background: var(--color-primary);
-  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0C0C0C;
+  background: #87FCFE;
+  padding: 14px 28px 16px 28px;
   margin-left: 30px;
   border-radius: 50px;
   transition: 0.3s;
   text-decoration: none;
+  line-height: 21px;
 }
 
 /*--------------------------------------------------------------
@@ -109,7 +113,14 @@ h1 {
     position: relative;
     text-decoration: none;
   }
-
+  .navbar a:hover {
+    color: #87FCFE;
+  }
+  a.btn-book-a-table:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+  }
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
@@ -342,7 +353,7 @@ h1 {
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #1f1f24;
+  background-color: #000000;
   padding: 50px 0;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -399,7 +410,7 @@ h1 {
 .footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #555555;
+  color: rgba(55, 65, 81, 1);
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 .footer .footer-links ul {
@@ -416,8 +427,9 @@ h1 {
 }   
 .footer .footer-links ul li a {
   text-decoration: none;
-  color: #000;
+  color: #374151;
   font-size: 16px;
+  padding: 8px 12px;
 }
 .footer .footer-links ul li a:before {
   content: "";
@@ -485,6 +497,10 @@ h1 {
   font-weight: 400;
   line-height: 37px;
   letter-spacing: 0.5px;
+}
+.footer .footer-links ul li a:hover {
+  background-color: rgba(135, 252, 254, 0.4);
+  padding: 8px 12px;
 }
 @media (max-width: 575px) {
   .footer .footer-links ul {
