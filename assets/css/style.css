@@ -351,14 +351,161 @@ h1 {
   }
 }
 
+/*--------------------------------------------------------------
+# Contact Us Page
+--------------------------------------------------------------*/
+.section-header {
+  text-align: left;
+}
+
+.section-header h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.section-header p {
+  width: 41%;
+  color: #D1D5DB;
+  font-size: 17px;
+}
+
+form.contact-form {
+  text-align: left;
+  color: #fff;
+}
+
+form.contact-form label {
+  margin: 10px 0px 5px 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.contact-form .form-control {
+  width: 50%;
+  padding: 10px;
+  background-color: #222222;
+  border: none;
+}
+
+.btn.btn-primary {
+  padding: 12px 20px;
+  margin-top: 40px;
+  background: #000;
+  border-radius: 25px;
+  border: 1px solid #fff;
+}
+
+i.bi.bi-arrow-right-circle-fill {
+  font-size: 25px;
+  margin-left: 10px;
+  vertical-align: -.145em;
+}
+
+.btn.btn-primary {
+  padding: 4px 5px 1px 15px;
+  margin-top: 40px;
+  background: #000;
+  border-radius: 25px;
+  border: 1px solid #fff;
+}
 
 
+.office_places {
+  left: calc(50% - 1.6rem);
+  line-height: 1;
+  position: relative;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+  top: calc(10% - 0.8rem);
+  font-size: 52px;
+}
 
+.options {
+  display: flex;
+  height: 500px;
+  float: inline-end;
+}
 
+.city_details {
+  position: relative;
+  overflow: hidden;
+  min-width: 150px;
+  margin: 10px;
+  background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+  background-size: auto 120%;
+  background-position: center;
+  cursor: pointer;
+  transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  max-width: 150px;
+}
 
+.active {
+  flex-grow: 10000;
+  transform: scale(1);
+  max-width: 300px;
+  margin: 0px;
+  border-radius: 40px;
+  background-size: auto 100%;
+}
 
+.city_details:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+}
 
+.active .city_address {
+  width: 65%;
+  float: right;
+  text-align: left;
+  margin-top: 75%;
+  font-size: 22px;
+}
 
+.active .office_places {
+  left: 0;
+  width: 25%;
+  display: inline-block;
+  opacity: 0.3;
+}
+
+.city_details.active {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.city_details.hyd.active {
+  background-image: url("../images/contact/char_full.png");
+}
+
+.city_details.ellicott.active {
+  background-image: url("../images/contact/ellicott_full.png");
+}
+
+.section-with-background {
+  background-image: url('../images/contact/background_contact.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  /* Adjust padding as needed */
+  color: #fff;
+  /* Text color for better visibility on the background */
+  border-radius: 25px;
+}
+
+.header-content h2 {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 35px;
+  padding-top: 50px;
+}
 
 /*--------------------------------------------------------------
 # Footer
