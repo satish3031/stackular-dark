@@ -25,8 +25,17 @@ main {
   background-color: #000;
 }
 
-h1 {
+h1,
+h2 {
   color: #fff;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 56px;
 }
 
 /* Colors */
@@ -352,6 +361,91 @@ h1 {
 }
 
 /*--------------------------------------------------------------
+# Index Page
+--------------------------------------------------------------*/
+.hero-sec .section-header p {
+  width: 100%;
+}
+
+.hero-header {
+  z-index: 10;
+}
+
+.globel-main {
+  z-index: 9;
+  box-shadow: 0px 0px #00000070;
+  padding: 0px;
+  margin: -250px 0px 0px 0px !important;
+  row-gap: 0px;
+  column-gap: 0px;
+  overflow: visible;
+  border-color: inherit;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.globel-inner {
+  min-height: 450px;
+  box-shadow: 0px 0px #00000070;
+  padding: 0px;
+  margin: 120px -50px 0px 0px !important;
+  row-gap: 20px;
+  column-gap: 20px;
+  overflow: visible;
+}
+
+video {
+  max-width: 100%;
+  width: 90%;
+  height: 100%;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  display: inline-block;
+  vertical-align: baseline;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-size: cover;
+}
+
+section#map {
+  box-shadow: 0px 18px 40px -10px #00000070;
+  padding: 40px;
+  margin: -6px;
+  row-gap: 20px;
+  column-gap: 20px;
+  overflow: visible;
+  border-radius: 30px;
+  border-style: none;
+  border-color: inherit;
+  background-color: #1f2937;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.section-img {
+  text-align: left;
+}
+
+.map-content {
+  margin-top: 10%;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.map-content p {
+  color: #fff;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+/*--------------------------------------------------------------
 # Contact Us Page
 --------------------------------------------------------------*/
 .section-header {
@@ -360,9 +454,10 @@ h1 {
 
 .section-header h1 {
   color: #fff;
-  font-size: 58px;
-  font-weight: 500;
+  font-size: 64px;
   margin-bottom: 18px;
+  font-weight: 600;
+  line-height: 81px;
 }
 
 .section-header p {
@@ -505,6 +600,68 @@ i.bi.bi-arrow-right-circle-fill {
   text-align: left;
   padding-left: 35px;
   padding-top: 50px;
+}
+.services-card {
+  text-align: left;
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0px 25px;
+}
+.services-card h3 {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 30px 0px 5px 0px;
+}
+.services-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.services-card a {
+  color: #fff;
+  text-decoration: none;
+}
+.service-header .section-header p {
+  width: 57%;
+}
+section#make_us {
+  background-color: #1f2937;
+  border-radius: 30px;
+  padding: 80px;
+  border-style: none;
+  border-color: inherit;
+}
+.make-us-content p {
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+}
+.make-us-card {
+  text-align: left;
+  padding: 30px;
+  color: #fff;
+}
+.make-us-card h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  padding: 25px 0px;
+}
+.make-us-card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.projects .section-header {
+  text-align: center;
+}
+.projects .section-header p {
+  text-align: center;
+  width: 100%;
+}
+.project-card {
+  text-align: left;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -717,4 +874,58 @@ i.bi.bi-arrow-right-circle-fill {
     margin-right: -8%;
     margin-bottom: -12.5%;
   }
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Logos slider
+--------------------------------------------------------------*/
+#ourclients {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:30px;
+  height:150px;
+}
+#ourclients .clients-wrap {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#ourclients .clients-wrap ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ourclients .clients-wrap ul li {
+  display: block;
+  float: left;
+  position: relative;
+  width: 180px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+#ourclients .clients-wrap ul li img {
+  vertical-align: middle;
+  max-width: 100%;
+  width:80px;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  -moz-transition: 0 linear left;
+  transition: 0 linear left;
+}
+#ourclients h3{
+border-bottom:2px solid #3399ff;
+width:150px;
+padding:10px;
+}
+#ourclients .clients-wrap ul li:last-child{
+  display: none;
 }
