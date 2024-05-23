@@ -20,7 +20,10 @@ body {
   text-align: center;
   line-height: 1.45;
 }
-
+section {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
 main {
   background-color: #000;
 }
@@ -501,7 +504,8 @@ section#map {
 section#make_us {
   background-color: #1f2937;
   border-radius: 30px;
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 60px;
   border-style: none;
   border-color: inherit;
 }
@@ -588,7 +592,8 @@ section#make_us {
 section#join_us {
   background-color: #1f2937;
   border-radius: 30px;
-  padding: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-style: none;
   border-color: inherit;
 }
@@ -680,6 +685,45 @@ section#portfolio a.btn.btn-primary {
 }
 .map-sec.portfolio-info {
   padding: 55px 40px 30px 40px !important;
+}
+
+/*--------------------------------------------------------------
+# Join Us Page
+--------------------------------------------------------------*/
+.join-us-header .section-header p {
+  width: 100%;
+}
+.join-us-header a.btn.btn-primary {
+  padding: 10px 20px 10px 10px;
+  margin-right: 20px;
+}
+.join-us-header a.btn.btn-primary i.bi.bi-arrow-up-circle-fill {
+  font-size: 30px;
+  margin-right: 15px;
+}
+.join-us-header a.btn.btn-primary.upload {
+  padding: 1px 20px 0px 10px;
+  text-align: center;
+}
+.join-inner-sec h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.inner-page .join-card {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+.inner-page .join-card img {
+  margin-right: 20px;
+}
+.join-inner-img {
+  float: left;
+}
+video#join_us_video {
+  width: 100%;
+  border-radius: 20px;
+  max-height: 310px;
 }
 /*--------------------------------------------------------------
 # Contact Us Page
