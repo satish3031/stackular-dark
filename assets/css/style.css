@@ -37,6 +37,9 @@ h1 {
 h2 {
   font-size: 56px;
 }
+p{
+  color:#D1D5DB
+}
 
 /* Colors */
 :root {
@@ -49,7 +52,16 @@ h2 {
 :root {
   scroll-behavior: smooth;
 }
-
+.hero-padding {
+  margin-top: 12rem;
+}
+.section-padding {
+  margin: 50px 0px;
+}
+.section-padding1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -69,6 +81,7 @@ h2 {
 .header.sticked {
   border-color: #fff;
   border-color: #eee;
+  background: var(--color-default);
 }
 
 .header .logo img {
@@ -437,7 +450,6 @@ section#map {
 }
 
 .map-content p {
-  color: #fff;
   text-align: left;
   margin-top: 30px;
   font-size: 20px;
@@ -459,16 +471,16 @@ section#map {
 }
 .services-card h3 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 30px 0px 5px 0px;
 }
 .services-card p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 100;
   line-height: 21px;
 }
 .services-card a {
-  color: #fff;
+  color: #D1D5DB;;
   text-decoration: none;
 }
 .service-header .section-header p {
@@ -483,7 +495,6 @@ section#make_us {
 }
 .make-us-content p {
   text-align: left;
-  color: #fff;
   font-size: 18px;
 }
 .make-us-card {
@@ -540,6 +551,7 @@ section#make_us {
   margin-right: 11px;
   display: inline-block;
   margin-bottom: 15px;
+  color: #D1D5DB;
 }
 
 section#join_us {
