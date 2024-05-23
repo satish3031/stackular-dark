@@ -55,7 +55,7 @@ p {
 }
 
 .hero-padding {
-  margin-top: 12rem;
+  padding-top: 12rem;
 }
 
 .section-padding {
@@ -71,7 +71,7 @@ p {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: var(--color-default);
+  background: transparent;
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
@@ -623,6 +623,64 @@ section#join_us {
   /* background-color: #0C0C0C; */
 }
 
+/*--------------------------------------------------------------
+# Portfolio Page
+--------------------------------------------------------------*/
+section#portfolio .section-header {
+  text-align: center;
+  padding: 70px 0px;
+}
+section#portfolio {
+  position: sticky;
+}
+section#portfolio .section-header p {
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+section#portfolio a.btn.btn-primary {
+  margin: 60px;
+}
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-100;
+}
+.portfolio-sec .bi-arrow-right-circle-fill::before {
+  font-size: 35px;
+}
+.portfolio-sec a.btn.btn-primary {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 9px 10px 4px 20px;
+}
+.portfolio-sec a.btn.btn-primary:hover {
+  background-color: #87FCFE;
+  color: #000;
+}
+.portfolio-projects h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #87FCFE;
+}
+.portfolio-projects p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.map-content.portfolio-content {
+  margin: 0px;
+}
+.map-content.portfolio-content p {
+  margin-top: 0px;
+  font-size: 18px;
+}
+.map-sec.portfolio-info {
+  padding: 55px 40px 30px 40px !important;
+}
 /*--------------------------------------------------------------
 # Contact Us Page
 --------------------------------------------------------------*/
