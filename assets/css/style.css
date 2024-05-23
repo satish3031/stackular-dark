@@ -80,9 +80,9 @@ h2 {
 .header .btn-contact-us:focus {
   font-size: 16px;
   font-weight: 500;
-  color: #0C0C0C;
-  background: #87FCFE;
-  padding: 14px 28px 16px 28px;
+  color: #000;
+  background: #fff;
+  padding: 14px 26px;
   margin-left: 30px;
   border-radius: 50px;
   transition: 0.3s;
@@ -135,9 +135,8 @@ h2 {
   }
 
   a.btn-contact-us:hover {
-    background: #000;
-    color: #fff;
-    border: 1px solid #fff;
+    background: #87FCFE;
+    color: #000;
   }
 
   .navbar a i,
@@ -456,7 +455,7 @@ section#map {
   color: #fff;
   font-size: 64px;
   margin-bottom: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 81px;
 }
 
@@ -498,6 +497,7 @@ i.bi.bi-arrow-right-circle-fill {
   font-size: 25px;
   margin-left: 10px;
   vertical-align: -.145em;
+  color: #87FCFE;
 }
 
 .btn.btn-primary {
