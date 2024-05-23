@@ -37,8 +37,9 @@ h1 {
 h2 {
   font-size: 56px;
 }
-p{
-  color:#D1D5DB
+
+p {
+  color: #D1D5DB
 }
 
 /* Colors */
@@ -52,16 +53,20 @@ p{
 :root {
   scroll-behavior: smooth;
 }
+
 .hero-padding {
   margin-top: 12rem;
 }
+
 .section-padding {
   margin: 50px 0px;
 }
+
 .section-padding1 {
   margin-top: 100px;
   margin-bottom: 50px;
 }
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -463,29 +468,36 @@ section#map {
   padding-left: 35px;
   padding-top: 50px;
 }
+
 .services-card {
   text-align: left;
   color: #fff;
   margin-bottom: 40px;
   padding: 0px 25px;
 }
+
 .services-card h3 {
   font-size: 28px;
   font-weight: 500;
   padding: 30px 0px 5px 0px;
 }
+
 .services-card p {
   font-size: 16px;
   font-weight: 100;
   line-height: 21px;
 }
+
 .services-card a {
-  color: #D1D5DB;;
+  color: #87FCFE;
   text-decoration: none;
+  font-size: 14px;
 }
+
 .service-header .section-header p {
   width: 57%;
 }
+
 section#make_us {
   background-color: #1f2937;
   border-radius: 30px;
@@ -493,37 +505,49 @@ section#make_us {
   border-style: none;
   border-color: inherit;
 }
+
 .make-us-content p {
   text-align: left;
   font-size: 18px;
 }
+
 .make-us-card {
   text-align: left;
   padding: 30px;
   color: #fff;
 }
+
+.make-us-haed h2 {
+  font-size: 34px;
+}
+
 .make-us-card h3 {
   font-size: 28px;
   font-weight: 500;
   line-height: 36px;
   padding: 25px 0px;
 }
+
 .make-us-card p {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
 }
+
 .projects .section-header {
   text-align: center;
 }
+
 .projects .section-header p {
   text-align: center;
   width: 100%;
 }
+
 .project-card {
   text-align: left;
   color: #fff;
 }
+
 .project-card {
   text-align: left;
   color: #fff;
@@ -531,27 +555,34 @@ section#make_us {
   margin: 7% 0%;
   padding: 0px 30px;
 }
+
+.projects h2 {
+  font-size: 34px;
+}
+
 .project-card h3 {
   font-size: 28px;
   line-height: 36px;
   font-weight: 600;
 }
+
 .project-card p {
   line-height: 28px;
   font-size: 18px;
   font-weight: 300;
 }
+
 .project-card span {
   background-color: #1F2937;
   padding: 8px 12px;
   border-radius: 25px;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   margin-right: 11px;
   display: inline-block;
   margin-bottom: 15px;
-  color: #D1D5DB;
+  color: #87FCFE;
 }
 
 section#join_us {
@@ -561,15 +592,18 @@ section#join_us {
   border-style: none;
   border-color: inherit;
 }
+
 .join-card {
   color: #fff;
   font-size: 28px;
   font-weight: 500;
   margin: 20px 0px;
 }
+
 .join-card img {
   margin-right: 30px;
 }
+
 .join-us-haed .section-header a {
   color: #87FCFE;
   text-decoration: none;
@@ -578,14 +612,17 @@ section#join_us {
   font-weight: 300;
   margin-left: 5px;
 }
+
 .btn.btn-primary:hover {
   background-color: #87FCFE;
   color: #0C0C0C;
 }
+
 .btn.btn-primary:hover i.bi.bi-arrow-right-circle-fill {
   color: #0C0C0C;
   /* background-color: #0C0C0C; */
 }
+
 /*--------------------------------------------------------------
 # Contact Us Page
 --------------------------------------------------------------*/
@@ -621,7 +658,7 @@ form.contact-form label {
 }
 
 .contact-form .form-control {
-  width: 50%;
+  width: 60%;
   padding: 10px;
   background-color: #222222;
   border: none;
@@ -649,7 +686,6 @@ i.bi.bi-arrow-right-circle-fill {
   border-radius: 25px;
   border: 1px solid #fff;
 }
-
 
 .office_places {
   left: calc(50% - 1.6rem);
@@ -742,7 +778,7 @@ i.bi.bi-arrow-right-circle-fill {
 .footer {
   font-size: 14px;
   background-color: #000000;
-  padding: 50px 0;
+  padding: 18px 0;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -958,15 +994,16 @@ i.bi.bi-arrow-right-circle-fill {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding:30px;
-  height:150px;
+  padding: 30px;
+  height: 150px;
 }
+
 #ourclients .clients-wrap {
   display: block;
-  width: 95%;
   margin: 0 auto;
   overflow: hidden;
 }
+
 #ourclients .clients-wrap ul {
   display: block;
   list-style: none;
@@ -974,6 +1011,7 @@ i.bi.bi-arrow-right-circle-fill {
   margin-left: auto;
   margin-right: auto;
 }
+
 #ourclients .clients-wrap ul li {
   display: block;
   float: left;
@@ -984,20 +1022,23 @@ i.bi.bi-arrow-right-circle-fill {
   text-align: center;
   overflow: hidden;
 }
+
 #ourclients .clients-wrap ul li img {
   vertical-align: middle;
   max-width: 100%;
-  width:80px;
+  width: 80px;
   max-height: 100%;
   -webkit-transition: 0 linear left;
   -moz-transition: 0 linear left;
   transition: 0 linear left;
 }
-#ourclients h3{
-border-bottom:2px solid #3399ff;
-width:150px;
-padding:10px;
+
+#ourclients h3 {
+  border-bottom: 2px solid #3399ff;
+  width: 150px;
+  padding: 10px;
 }
-#ourclients .clients-wrap ul li:last-child{
+
+#ourclients .clients-wrap ul li:last-child {
   display: none;
 }
