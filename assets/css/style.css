@@ -791,6 +791,7 @@ video#join_us_video {
 }
 .job-card span i {
   margin-right: 10px;
+  color: #87FCFE;
 }
 .border-middle {
   border: 1px solid #1F2937;
@@ -803,6 +804,27 @@ video#join_us_video {
 .services-title {
   text-align: left;
 }
+
+/*--------------------------------------------------------------
+# Services Info Page
+--------------------------------------------------------------*/
+.services-info-header .section-header h1 {
+  font-size: 48px;
+}
+.services-info-header tag {
+  color: #87FCFE;
+  font-size: 18px;
+}
+.service-content p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 100;
+}
+.design-sec .section-header h2 {
+  font-size: 36px;
+}
+
 
 /*--------------------------------------------------------------
 # Project Info Page
