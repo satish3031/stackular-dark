@@ -697,9 +697,35 @@ section#portfolio a.btn.btn-primary {
   padding: 10px 20px 10px 10px;
   margin-right: 20px;
 }
-.join-us-header a.btn.btn-primary i.bi.bi-arrow-up-circle-fill {
-  font-size: 30px;
-  margin-right: 15px;
+.btn.btn-secondary i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+.btn.btn-secondary {
+  background-color: transparent;
+  padding: 3px 16px;
+  border-radius: 25px;
+  margin-right: 20px;
+  font-size: 16px;
+  text-align: center !important;
+}
+.btn.btn-secondary:hover {
+  background-color: #87FCFE;
+  color: #0C0C0C;
+}
+.btn.btn-plain {
+  background-color: transparent;
+  padding: 9px 20px;
+  border-radius: 25px;
+  margin-right: 20px;
+  font-size: 16px;
+  text-align: center !important;
+  border: 1px solid #6c757d;
+  color: #fff;
+}
+.btn.btn-plain:hover {
+  background-color: #87FCFE;
+  color: #0C0C0C;
 }
 .join-us-header a.btn.btn-primary.upload {
   padding: 1px 20px 0px 10px;
@@ -725,6 +751,61 @@ video#join_us_video {
   border-radius: 20px;
   max-height: 310px;
 }
+.job-titles {
+  text-align: left;
+}
+.job-titles h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.job-titlesp {
+  font-size: 18px;
+}
+.job-cards {
+  text-align: left;
+  color: #fff;
+}
+.job-card {
+  background-color: #1F2937;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.job-card h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.job-card p {
+  font-size: 14px;
+  padding: 12px 0px;
+}
+.job-card span {
+  background: #374151;
+  padding: 10px 10px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+.job-card span i {
+  margin-right: 10px;
+}
+.border-middle {
+  border: 1px solid #1F2937;
+}
+
+
+/*--------------------------------------------------------------
+# Services Page
+--------------------------------------------------------------*/
+
+.services-title {
+  text-align: left;
+}
+
+
 /*--------------------------------------------------------------
 # Contact Us Page
 --------------------------------------------------------------*/
