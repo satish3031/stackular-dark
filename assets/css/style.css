@@ -20,10 +20,12 @@ body {
   text-align: center;
   line-height: 1.45;
 }
+
 section {
   padding-left: 25px !important;
   padding-right: 25px !important;
 }
+
 main {
   background-color: #000;
 }
@@ -626,7 +628,6 @@ section#join_us {
 
 .btn.btn-primary:hover i.bi.bi-arrow-right-circle-fill {
   color: #0C0C0C;
-  /* background-color: #0C0C0C; */
 }
 
 /*--------------------------------------------------------------
@@ -636,54 +637,66 @@ section#portfolio .section-header {
   text-align: center;
   padding: 70px 0px;
 }
+
 section#portfolio {
   position: sticky;
 }
+
 section#portfolio .section-header p {
   width: 100%;
   margin-top: 35px;
   margin-bottom: 25px;
 }
+
 section#portfolio a.btn.btn-primary {
   margin: 60px;
 }
+
 #myVideo {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index:-100;
+  z-index: -100;
 }
+
 .portfolio-sec .bi-arrow-right-circle-fill::before {
   font-size: 35px;
 }
+
 .portfolio-sec a.btn.btn-primary {
   background: transparent;
   font-size: 16px;
   font-weight: 300;
   padding: 9px 10px 4px 20px;
 }
+
 .portfolio-sec a.btn.btn-primary:hover {
   background-color: #87FCFE;
   color: #000;
 }
+
 .portfolio-projects h2 {
   font-size: 35px;
   font-weight: 600;
   color: #87FCFE;
 }
+
 .portfolio-projects p {
   font-size: 14px;
   font-weight: 100;
 }
+
 .map-content.portfolio-content {
   margin: 0px;
 }
+
 .map-content.portfolio-content p {
   margin-top: 0px;
   font-size: 18px;
 }
+
 .map-sec.portfolio-info {
   padding: 55px 40px 30px 40px !important;
 }
@@ -694,14 +707,19 @@ section#portfolio a.btn.btn-primary {
 .join-us-header .section-header p {
   width: 100%;
 }
+
 .join-us-header a.btn.btn-primary {
   padding: 10px 20px 10px 10px;
   margin-right: 20px;
 }
+
 .btn.btn-secondary i {
   margin-right: 10px;
   font-size: 25px;
+  color: #87FCFE;
+  vertical-align: -.145em;
 }
+
 .btn.btn-secondary {
   background-color: transparent;
   padding: 3px 16px;
@@ -710,10 +728,16 @@ section#portfolio a.btn.btn-primary {
   font-size: 16px;
   text-align: center !important;
 }
+
 .btn.btn-secondary:hover {
   background-color: #87FCFE;
   color: #0C0C0C;
 }
+
+.btn.btn-secondary:hover i.bi.bi-arrow-up-circle-fill {
+  color: #0C0C0C;
+}
+
 .btn.btn-plain {
   background-color: transparent;
   padding: 9px 20px;
@@ -724,50 +748,62 @@ section#portfolio a.btn.btn-primary {
   border: 1px solid #6c757d;
   color: #fff;
 }
+
 .btn.btn-plain:hover {
   background-color: #87FCFE;
   color: #0C0C0C;
 }
+
 .join-us-header a.btn.btn-primary.upload {
   padding: 1px 20px 0px 10px;
   text-align: center;
 }
+
 .join-inner-sec h2 {
   font-size: 36px;
   font-weight: 600;
 }
+
 .inner-page .join-card {
   font-size: 18px;
   font-weight: 300;
   text-align: left;
 }
+
 .inner-page .join-card img {
   margin-right: 20px;
 }
+
 .join-inner-img {
   float: left;
 }
+
 video#join_us_video {
   width: 100%;
   border-radius: 20px;
   max-height: 310px;
 }
+
 .job-titles {
   text-align: left;
 }
+
 .job-titles h3 {
   color: #fff;
   text-align: left;
   font-size: 20px;
   font-weight: 500;
 }
+
 .job-titlesp {
   font-size: 18px;
 }
+
 .job-cards {
   text-align: left;
   color: #fff;
 }
+
 .job-card {
   background-color: #1F2937;
   padding: 25px;
@@ -776,24 +812,29 @@ video#join_us_video {
   font-size: 14px;
   color: #fff;
 }
+
 .job-card h3 {
   font-size: 20px;
   font-weight: 500;
 }
+
 .job-card p {
   font-size: 14px;
   padding: 12px 0px;
 }
+
 .job-card span {
   background: #374151;
   padding: 10px 10px;
   border-radius: 25px;
   margin-right: 10px;
 }
+
 .job-card span i {
   margin-right: 10px;
   color: #87FCFE;
 }
+
 .border-middle {
   border: 1px solid #1F2937;
 }
@@ -812,90 +853,111 @@ video#join_us_video {
 .services-info-header .section-header h1 {
   font-size: 48px;
 }
+
 .services-info-header tag {
   color: #87FCFE;
   font-size: 18px;
 }
+
 .service-content p {
   text-align: left;
   font-size: 18px;
   line-height: 28px;
   font-weight: 100;
 }
+
 .design-sec .section-header h2 {
   font-size: 32px;
   text-transform: uppercase;
 }
+
 .design-list {
   text-align: left;
   color: #fff;
 }
+
 .design-list p {
   padding: 14px 0px;
   font-size: 16px;
 }
+
 section#our_list .container {
   background: #1F2937 !important;
   border-radius: 25px;
 }
+
 .our-list-info {
   padding: 20px 0px 30px 0px;
 }
+
 .our-list-info h3 {
   font-size: 36px;
   font-weight: 500;
   color: #87FCFE;
 }
+
 .our-list-info p {
   color: #F9FAFB;
   font-size: 16px;
 }
+
 .our-design-sec .section-header h2 {
   font-size: 36px;
   text-transform: uppercase;
 }
+
 .our-design-img img {
   width: 90%;
 }
+
 .our-design-content {
   text-align: left;
 }
+
 .our-design-content h4 {
   font-size: 28px;
   color: #fff;
 }
+
 .our-design-content p {
   font-size: 20px;
   line-height: 32px;
   font-weight: 100;
 }
+
 .other-services .section-header h2 {
   font-size: 36px;
   text-align: center;
   text-transform: uppercase;
 }
+
 .other-services-card {
   background: #1F2937;
   margin: 15px;
   text-align: left;
   padding: 20px;
 }
+
 .other-services-card img {
   width: 25%;
 }
+
 .other-services-card h4 {
   font-size: 28px;
   color: #fff;
   padding: 10px 0px;
 }
+
 .other-services-card p {
   font-size: 16px;
 }
+
 .other-services-card a {
   color: #87FCFE;
   text-decoration: none;
   font-size: 16px;
 }
+
 /*--------------------------------------------------------------
 # Project Info Page
 --------------------------------------------------------------*/
@@ -905,12 +967,14 @@ section#our_list .container {
   line-height: 71px;
   margin-right: 20px;
 }
+
 .project-info-header .section-header p {
   width: 100%;
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 30px;
 }
+
 .project-info-header .section-header span {
   background: #1F2937;
   padding: 10px 16px 10px 16px;
@@ -921,37 +985,46 @@ section#our_list .container {
   text-transform: uppercase;
   line-height: 50px;
 }
+
 tag {
   font-size: 20px;
   color: #fff;
 }
+
 .project-info.tec-tools img {
   margin: 0px 27px;
 }
+
 .project-issues-info {
   text-align: left;
 }
+
 .project-issues-info h3 {
   color: #fff;
   font-size: 24px;
   text-transform: uppercase;
 }
+
 .project-info p {
   font-size: 18px;
   font-weight: 300;
   color: #D1D5DB;
 }
+
 .metrics h4 {
   font-size: 30px;
   font-weight: 500;
 }
+
 .metrics {
   text-align: center;
 }
+
 .metrics p {
   font-size: 14px;
   margin-bottom: 0px;
 }
+
 .other-work-card {
   background: #1F2937;
   border-radius: 20px;
@@ -959,16 +1032,19 @@ tag {
   text-align: left;
   padding: 0px 0px 25px 0px;
 }
+
 .other-work-card h3 {
   color: #fff;
   font-size: 28px;
   padding: 20px;
   line-height: 36px;
 }
+
 .other-work-card p {
   font-size: 18px;
   padding: 0px 20px;
 }
+
 .other-work-card a {
   font-size: 14px;
   text-align: left;
@@ -979,6 +1055,7 @@ tag {
   text-decoration: none;
   font-weight: 100;
 }
+
 /*--------------------------------------------------------------
 # Contact Us Page
 --------------------------------------------------------------*/
