@@ -463,8 +463,8 @@ section#map {
 .map-content p {
   text-align: left;
   margin-top: 30px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .header-content h2 {
@@ -515,7 +515,7 @@ section#make_us {
 
 .make-us-content p {
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .make-us-card {
@@ -603,8 +603,8 @@ section#join_us {
 
 .join-card {
   color: #fff;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 100;
   margin: 20px 0px;
 }
 
@@ -612,18 +612,19 @@ section#join_us {
   margin-right: 30px;
 }
 
-.join-us-haed .section-header a {
+/* .join-us-haed .section-header a {
   color: #87FCFE;
   text-decoration: none;
   line-height: 28px;
   font-size: 18px;
   font-weight: 300;
   margin-left: 5px;
-}
+} */
 
 .btn.btn-primary:hover {
   background-color: #87FCFE;
   color: #0C0C0C;
+  border: 1px solid #87FCFE;
 }
 
 .btn.btn-primary:hover i.bi.bi-arrow-right-circle-fill {
@@ -675,6 +676,7 @@ section#portfolio a.btn.btn-primary {
 .portfolio-sec a.btn.btn-primary:hover {
   background-color: #87FCFE;
   color: #000;
+  border: 1px solid #87FCFE;
 }
 
 .portfolio-projects h2 {
@@ -752,6 +754,7 @@ section#portfolio a.btn.btn-primary {
 .btn.btn-plain:hover {
   background-color: #87FCFE;
   color: #0C0C0C;
+  border: 1px solid #87FCFE;
 }
 
 .join-us-header a.btn.btn-primary.upload {
@@ -1166,7 +1169,8 @@ tag {
 .section-header p {
   width: 41%;
   color: #D1D5DB;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 form.contact-form {
