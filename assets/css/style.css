@@ -839,7 +839,56 @@ video#join_us_video {
   border: 1px solid #1F2937;
 }
 
-
+/*--------------------------------------------------------------
+# About Page
+--------------------------------------------------------------*/
+.about-sec .section-header h1 {
+  text-align: center;
+  font-size: 54px;
+}
+.about-sec .section-header p {
+  width: 100%;
+  text-align: center;
+}
+.about-sec .section-header p {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#about img {
+  height: 100%;
+}
+.founding-header .section-header h2 {
+  color: #F4F2FF;
+  font-size: 48px;
+}
+.founding-header .section-header p {
+  width: 80%;
+}
+.founder_img {
+  z-index: 9;
+  margin-top: -280px;
+  width: 70%;
+}
+.founder_bg_img {
+  z-index: -1;
+}
+.commitment-head .section-header {
+  text-align: center;
+}
+.commitment-card {
+  background-color: #293240;
+  padding: 30px;
+  text-align: left;
+}
+.commitment-card h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.commitment-card p {
+  font-size: 18px;
+  font-weight: 200;
+}
 /*--------------------------------------------------------------
 # Services Page
 --------------------------------------------------------------*/
@@ -1233,8 +1282,16 @@ i.bi.bi-arrow-right-circle-fill {
   background-image: url("../images/contact/char_full.png");
 }
 
-.city_details.ellicott.active {
-  background-image: url("../images/contact/ellicott_full.png");
+.city_details.chicago.active {
+  background-image: url("../images/contact/Rectangle-33.png");
+}
+
+.city_details.columbia.active {
+  background-image: url("../images/contact/Rectangle-11.png");
+}
+
+.city_details.san-jose.active {
+  background-image: url("../images/contact/Rectangle-22.png");
 }
 
 .section-with-background {
