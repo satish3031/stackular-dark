@@ -605,7 +605,7 @@ section#join_us {
   color: #fff;
   font-size: 20px;
   font-weight: 100;
-  margin: 20px 0px;
+  margin: 35px 0px;
 }
 
 .join-card img {
@@ -891,6 +891,16 @@ video#join_us_video {
 .commitment-card p {
   font-size: 18px;
   font-weight: 200;
+}
+img.smile_gif {
+  width: 34%;
+  margin-top: -58px;
+}
+.our-list-info span {
+  color: #fff;
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px;
 }
 /*--------------------------------------------------------------
 # Services Page
