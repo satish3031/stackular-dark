@@ -121,7 +121,13 @@
   
   })();
 
-      /**
-     * Logo slider
-     */
+  /**
+   * Navbar links active state on scroll
+   */
+  $('#navbar a').click(function(e) {
+    $('#navbar a.active').removeClass('active');
+    var $this = $(this);
+    $this.addClass('active');
+    e.preventDefault();
+});
    
