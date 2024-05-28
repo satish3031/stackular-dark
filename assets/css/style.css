@@ -902,6 +902,9 @@ img.smile_gif {
   margin: 0px;
   padding: 0px;
 }
+.commitment-head .section-header h2{
+  font-size: 36px;
+}
 /*--------------------------------------------------------------
 # Services Page
 --------------------------------------------------------------*/
@@ -919,6 +922,7 @@ img.smile_gif {
 }
 .navlist {
   display: inline-block;
+  padding: 10px;
 }
 .active_tab {
   background-color: #87FCFE !important;
@@ -1498,6 +1502,10 @@ i.bi.bi-arrow-right-circle-fill {
   padding: 8px 12px;
 }
 
+/*--------------------------------------------------------------
+# Responsive 
+--------------------------------------------------------------*/
+
 @media (max-width: 575px) {
   .footer .footer-links ul {
     display: block;
@@ -1510,8 +1518,40 @@ i.bi.bi-arrow-right-circle-fill {
   }
 
   .footer_first figure.figure {
-    margin-right: -9%;
-    margin-bottom: -19.1%;
+    margin-right: -11%;
+    margin-bottom: -26.1%;
+  }
+  .footer_first h2 {
+    font-size: 42px;
+  } 
+  .footer-contact-info span a {
+    font-size: 22px;
+  } 
+  .hero-padding {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+  .section-padding1 {
+    margin: 50px 0px;
+  }
+  .section-padding {
+    margin: 25px 0px;
+  }
+  .border_bottom, .border_right {
+    border: none;
+  }
+  .project-card {
+    margin: 7% 0% 0% 0%;
+  }
+  .section-header h1 {
+    font-size: 60px;
+  }
+  .btn.btn-secondary {
+    margin: 10px 0px;
+  }
+  .join-card {
+    margin: 20px 0px;
+    font-size: 16px;
   }
 }
 
