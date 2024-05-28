@@ -98,17 +98,15 @@
           <div class="container">
             <div class="row gy-4">
               <div class="col-lg-3 our-list-info">
-                <div class="counter-block cf">
-                  <span class="counter-number"><i>00</i><i>01</i><i>02</i><i>03</i></span>
-                </div>
+                <span>0</span><span data-purecounter-start="00" data-purecounter-end="03" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Locations</p>
               </div>
               <div class="col-lg-3 our-list-info">
-                <h3>20+</h3>
-                <p class="counter-count">20</p>
+                <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span><span>+</span>
                 <p>Clients</p>
               </div>
               <div class="col-lg-3 our-list-info">
-                <h3>100+</h3>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span><span>+</span>
                 <p>Consultants</p>
               </div>
               <div class="col-lg-3 our-list-info">
@@ -269,59 +267,4 @@
   <script> new PureCounter();</script>
   <script src="assets/js/script.js"></script>
 </body>
-<style>
-$secondary-color: #09f;
-
-.counter-block {
-  position: relative;
-  span {
-    display: inline-block;
-    &:first-child {
-      //border-left: 1px solid #61ADCE;
-    }
-  }
-}
-
-@keyframes countdown {
-  from {
-    transform: translateY(300%);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-.counter-number {
-  position: relative;
-  transform: translate3d(0, 300%, 0);
-  animation: countdown 1s forwards;
-  @for $i from 1 to 4 {
-    &:nth-of-type(#{$i}) {
-      animation-delay: $i * 0.1 + s;
-    }
-  }
-
-  i {
-    position: absolute;
-    @for $i from 1 to 10 {
-      &:nth-child(#{$i}) {
-        top: $i * -100%;
-      }
-    }
-  }
-}
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-.cf:after {
-  clear: both;
-}
-.cf {
-  *zoom: 1;
-}
-
-</style>
 </html>
