@@ -124,10 +124,13 @@
   /**
    * Navbar links active state on scroll
    */
-  $('#navbar a').click(function(e) {
-    $('#navbar a.active').removeClass('active');
-    var $this = $(this);
-    $this.addClass('active');
-    e.preventDefault();
+$(document).ready(function() {
+  var currentPageUrl = window.location.href;
+  $('#navbar a').each(function() {
+    var menuItemUrl = $(this).attr('href');
+    if (currentPageUrl.indexOf(menuItemUrl) !== -1) {
+      $(this).addClass('active');
+    }
+  });
 });
    
