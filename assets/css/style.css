@@ -847,7 +847,6 @@ video#join_us_video {
 --------------------------------------------------------------*/
 .about-sec .section-header h1 {
   text-align: center;
-  font-size: 54px;
 }
 .about-sec .section-header p {
   width: 100%;
@@ -911,9 +910,6 @@ img.smile_gif {
 .services-title {
   text-align: left;
 }
-.services-title h1 {
-  font-size: 52px;
-}
 .tabcontent {
   display: none;
 }
@@ -959,10 +955,6 @@ div#boxid {
 /*--------------------------------------------------------------
 # Services Info Page
 --------------------------------------------------------------*/
-.services-info-header .section-header h1 {
-  font-size: 48px;
-}
-
 .services-info-header tag {
   color: #87FCFE;
   font-size: 18px;
@@ -1070,12 +1062,6 @@ section#our_list .container {
 /*--------------------------------------------------------------
 # Project Info Page
 --------------------------------------------------------------*/
-.project-info-header .section-header h1 {
-  font-size: 56px;
-  font-weight: 600;
-  line-height: 71px;
-  margin-right: 20px;
-}
 
 .project-info-header .section-header p {
   width: 100%;
