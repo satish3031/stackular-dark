@@ -271,8 +271,8 @@
       $('.commitment-cards').mousemove(function(event) {
         var containerWidth = $(this).outerWidth();
         var containerHeight = $(this).outerHeight();
-        var centerX = containerWidth / 4;
-        var centerY = containerHeight / 4;
+        var centerX = containerWidth / 2;
+        var centerY = containerHeight / 2;
         var mouseX = event.pageX - $(this).offset().left;
         var mouseY = event.pageY - $(this).offset().top;
         var xRatio = Math.abs(mouseX - centerX) / centerX;
@@ -291,6 +291,9 @@
     
         $(this).find('.commitment_card').css('background', gradient);
       });
+      $('.commitment-cards').mouseout(function(event) {
+          $(".commitment-card").css("background", ""); // Remove the background property
+      });    
     });
     </script>
 </body>
