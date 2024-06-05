@@ -336,12 +336,6 @@ p {
     margin-left: 5px;
   }
 
-  .navbar .active,
-  .navbar .active:focus {
-    color: #000;
-    border-color: var(--color-primary);
-  }
-
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
     position: static;
@@ -1228,7 +1222,9 @@ i.bi.bi-arrow-right-circle-fill {
 .join-us-haed .section-header .btn-primary {
   background-color: #1f2937;
 }
-
+.join-us-haed .section-header .btn-primary:hover {
+  background-color: #87FCFE;
+}
 .office_places {
   left: calc(50% - 1.6rem);
   line-height: 1;
@@ -1534,7 +1530,10 @@ i.bi.bi-twitter-x:hover {
     text-decoration: none;
     color: #fff;
   }
-
+  a.active {
+    color: #D1D5DB;
+    max-width: 100%;
+  }
   /*--------------------------------------------------------------
   #  Home Page 
   --------------------------------------------------------------*/
@@ -1603,6 +1602,62 @@ i.bi.bi-twitter-x:hover {
   }
   section#join_us .form-group {
     text-align: left;
+  }
+  .join-us-sec .btn-primary {
+    background-color: #1f2937;
+  }
+   /*--------------------------------------------------------------
+  #  About Us Page 
+  --------------------------------------------------------------*/
+  .founder_bg_img {
+    width: 80%;
+  }
+  .founding-header .section-header h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .founding-header .section-header p {
+    width: 100%;
+    text-align: center;
+  }
+  .project-info p {
+    font-size: 16px;
+  }
+  tag {
+    font-size: 16px;
+  }
+  .commitment-card p {
+    font-size: 14px;
+  }
+  .commitment-card {
+    text-align: center;
+  }
+   /*--------------------------------------------------------------
+  #  Services Page 
+  --------------------------------------------------------------*/
+
+  .navlist {
+    padding: 10px 0px;
+  }
+  .btn.btn-plain {
+    padding: 8px 8px;
+    margin-right: 0px;
+    font-size: 12px;
+    text-align: left !important;
+  }
+ .services-cards p {
+    font-size: 14px;
+  }
+  .services-title {
+    text-align: left;
+    background-image: url(../images/general/Group-7.png);
+    background-position: left;
+    opacity: 0.8;
+    padding: 40px 0px;
+  }
+  .map-content.portfolio-content p {
+    font-size: 14px;
+    text-align: center;
   }
  /*--------------------------------------------------------------
   #  Footer 
