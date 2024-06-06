@@ -1641,7 +1641,7 @@ i.bi.bi-twitter-x:hover {
     text-align: center;
   }
   .project-info p {
-    font-size: 16px;
+    font-size: 14px;
   }
   tag {
     font-size: 16px;
@@ -1651,6 +1651,7 @@ i.bi.bi-twitter-x:hover {
   }
   .commitment-card {
     text-align: center;
+    margin: 10px 0px;
   }
   .commitment-cards, .about-left-img, .about-right-img, .commitment-head {
     padding: 0px;
@@ -1704,6 +1705,10 @@ i.bi.bi-twitter-x:hover {
   .map-sec.portfolio-info {
     padding: 0px !important;
   }
+  .col-lg-2.portfolio-projects {
+    width: 50%;
+    padding: 30px;
+ }
   /*--------------------------------------------------------------
   #  Join Us Page 
   --------------------------------------------------------------*/
@@ -1735,6 +1740,7 @@ i.bi.bi-twitter-x:hover {
   .join-us-header {
     margin-bottom: 25px;
   }
+
   /*--------------------------------------------------------------
   #  Contact Us Page 
   --------------------------------------------------------------*/
@@ -1793,22 +1799,75 @@ i.bi.bi-twitter-x:hover {
   flex-grow: 1;
   border-radius: 30px;
   --optionBackground: url(../images/contact/char_mobil.png) !important;
-}
-.city_details.chicago:not(.active) {
-  flex-grow: 1;
-  border-radius: 30px;
-  --optionBackground: url(../images/contact/chicago_mobile.png) !important;
-}
-.city_details.columbia:not(.active) {
-  flex-grow: 1;
-  border-radius: 30px;
-  --optionBackground: url(../images/contact/columbia_mobile.png) !important;
-}
-.city_details.san-jose:not(.active) {
-  flex-grow: 1;
-  border-radius: 30px;
-  --optionBackground: url(../images/contact/san-joe_mobile.png) !important;
-}
+  }
+  .city_details.chicago:not(.active) {
+    flex-grow: 1;
+    border-radius: 30px;
+    --optionBackground: url(../images/contact/chicago_mobile.png) !important;
+  }
+  .city_details.columbia:not(.active) {
+    flex-grow: 1;
+    border-radius: 30px;
+    --optionBackground: url(../images/contact/columbia_mobile.png) !important;
+  }
+  .city_details.san-jose:not(.active) {
+    flex-grow: 1;
+    border-radius: 30px;
+    --optionBackground: url(../images/contact/san-joe_mobile.png) !important;
+  }
+  .city_details.hyd.active {
+    background-image: url("../images/contact/char_mobile_h.png");
+  }
+
+  .city_details.chicago.active {
+    background-image: url("../images/contact/chicago_mob_h.png");
+  }
+
+  .city_details.columbia.active {
+    background-image: url("../images/contact/columbia_mob_h.png");
+  }
+
+  .city_details.san-jose.active {
+    background-image: url("../images/contact/san-jose_mob_h.png");
+  }
+
+ /*--------------------------------------------------------------
+  #  Services Info Page 
+  --------------------------------------------------------------*/
+  .design-list p {
+    padding: 2px 0px;
+    font-size: 14px;
+  }
+  .why-chose-list {
+    padding: 10px 0px;
+  }
+  .col-lg-3.our-list-info {
+    float: left;
+    width: 50%;
+    padding: 25px;
+  }
+  .our-list-info h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #87FCFE;
+  }
+ /*--------------------------------------------------------------
+  #  Project Info Page 
+  --------------------------------------------------------------*/
+  .project-info.tec-tools img {
+    margin: 11px 15px;
+  }
+  .col-lg-3.metrics {
+    width: 50%;
+    padding: 25px 0px;
+  }
+  .other-works .section-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .other-work-cards {
+    margin: 10px 0px;
+  }
  /*--------------------------------------------------------------
   #  Footer 
   --------------------------------------------------------------*/
