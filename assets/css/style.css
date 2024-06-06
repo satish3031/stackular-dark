@@ -1517,7 +1517,7 @@ i.bi.bi-twitter-x:hover {
 # Responsive Mobile View
 --------------------------------------------------------------*/
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
 
   section {
     padding-left: 0px !important;
@@ -1938,13 +1938,10 @@ i.bi.bi-twitter-x:hover {
   }
 
   .footer_first figure.figure {
-    margin-right: -8%;
-    margin-bottom: -12.5%;
+    margin-right: -2%;
+    margin-bottom: -11.5%;
   }
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Logos slider
