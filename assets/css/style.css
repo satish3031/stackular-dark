@@ -710,7 +710,7 @@ section#portfolio a.btn.btn-primary {
 # Join Us Page
 --------------------------------------------------------------*/
 .join-us-header .section-header p {
-  width: 100%;
+  width: 80%;
 }
 
 .join-us-header a.btn.btn-primary {
@@ -719,10 +719,11 @@ section#portfolio a.btn.btn-primary {
 }
 
 .btn.btn-secondary i {
-  margin-right: 10px;
+  margin-right: 0px;
   font-size: 25px;
   color: #87FCFE;
   vertical-align: -.145em;
+  margin-left: 15px;
 }
 
 .btn.btn-secondary {
@@ -1518,6 +1519,15 @@ i.bi.bi-twitter-x:hover {
 
 @media (max-width: 575px) {
 
+  section {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .row, .row>* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
   /*--------------------------------------------------------------
   #  Navbar 
   --------------------------------------------------------------*/
@@ -1538,7 +1548,7 @@ i.bi.bi-twitter-x:hover {
   #  Home Page 
   --------------------------------------------------------------*/
   h1{
-    font-size: 32px !important;
+    font-size: 34px !important;
   }
   h2{
     font-size: 28px;
@@ -1606,6 +1616,16 @@ i.bi.bi-twitter-x:hover {
   .join-us-sec .btn-primary {
     background-color: #1f2937;
   }
+  .services-card {
+    padding: 0px;
+  }
+  .all-services {
+    padding: 0px;
+  }
+  .services-card:hover {
+    background-color: #374151;
+    padding: 10px;
+  }
    /*--------------------------------------------------------------
   #  About Us Page 
   --------------------------------------------------------------*/
@@ -1632,6 +1652,9 @@ i.bi.bi-twitter-x:hover {
   .commitment-card {
     text-align: center;
   }
+  .commitment-cards, .about-left-img, .about-right-img, .commitment-head {
+    padding: 0px;
+ }
    /*--------------------------------------------------------------
   #  Services Page 
   --------------------------------------------------------------*/
@@ -1659,6 +1682,133 @@ i.bi.bi-twitter-x:hover {
     font-size: 14px;
     text-align: center;
   }
+  .services-cards:hover {
+    background-color: unset;
+  }
+  .services-cards {
+    padding: 25px 0px;
+  }
+  .make-us-card:hover {
+    background-color: unset;
+  }
+  .make-us-haed, .col-lg-5, .make-us-card {
+    padding: 0px;
+  }
+  /*--------------------------------------------------------------
+  #  Portfolio Page 
+  --------------------------------------------------------------*/
+  .map-content.portfolio-content {
+    margin: 0px;
+    padding: 0px;
+  }
+  .map-sec.portfolio-info {
+    padding: 0px !important;
+  }
+  /*--------------------------------------------------------------
+  #  Join Us Page 
+  --------------------------------------------------------------*/
+  .join-us-header .section-header p {
+    width: 100%;
+  }
+  section#join_us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-style: none;
+    border-color: inherit;
+  }
+  .inner-page .join-card {
+    font-size: 14px;
+  }
+  .inner-page .join-card img {
+    margin-right: 20px;
+    width: 6%;
+  }
+  .inner-page {
+    margin-top: -20px;
+  }
+  .join-inner-sec h3 {
+    margin-bottom: 55px;
+  }
+  .join-inner-sec img.figure-img.img-fluid.rounded {
+    width: 100%;
+  }
+  .join-us-header {
+    margin-bottom: 25px;
+  }
+  /*--------------------------------------------------------------
+  #  Contact Us Page 
+  --------------------------------------------------------------*/
+  .header-content h2 {
+    font-size: 40px;
+    padding-left: 0px;
+  }
+  .options {
+    display: block;
+    height: auto;
+    float: inline-start;
+    width: 100%;
+ }
+ .office_places {
+  left: 0;
+  line-height: 1;
+  position: relative;
+  transform: rotate(0deg);
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+  text-align: center;
+  top: 0;
+  font-size: 38px;
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  padding: 45px 25px;
+}
+.city_details {
+  position: relative;
+  overflow: hidden;
+  min-width: 150px;
+  margin: 10px 0px;
+  background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  max-width: 100%;
+  background-size: contain;
+}
+.active .city_address {
+  width: 100%;
+  float: none;
+  text-align: left;
+  margin-top: 0%;
+  font-size: 18px;
+  padding: 25px;
+  margin-top: -35px;
+}
+.active .office_places {
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  opacity: 0.3;
+}
+.city_details.hyd:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+  --optionBackground: url(../images/contact/char_mobil.png) !important;
+}
+.city_details.chicago:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+  --optionBackground: url(../images/contact/chicago_mobile.png) !important;
+}
+.city_details.columbia:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+  --optionBackground: url(../images/contact/columbia_mobile.png) !important;
+}
+.city_details.san-jose:not(.active) {
+  flex-grow: 1;
+  border-radius: 30px;
+  --optionBackground: url(../images/contact/san-joe_mobile.png) !important;
+}
  /*--------------------------------------------------------------
   #  Footer 
   --------------------------------------------------------------*/
@@ -1677,10 +1827,16 @@ i.bi.bi-twitter-x:hover {
   .footer-menu {
     margin: 0px;
   }
-
+  .footer_first {
+    padding: 50px 10px;
+    margin: 10px 0px;
+  }
+  .footer_second {
+    padding: 40px 25px 10px !important;
+  }
   .footer_first figure.figure {
-    margin-right: -11%;
-    margin-bottom: -26.1%;
+    margin-right: -4%;
+    margin-bottom: -25.1%;
   }
   .footer_first h2 {
     font-size: 42px;
