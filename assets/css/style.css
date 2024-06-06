@@ -1623,8 +1623,10 @@ i.bi.bi-twitter-x:hover {
     padding: 0px;
   }
   .services-card:hover {
-    background-color: #374151;
-    padding: 10px;
+    background-color: unset;
+  }
+  .make-us-card:hover {
+    background-color: unset;
   }
    /*--------------------------------------------------------------
   #  About Us Page 
@@ -1942,7 +1944,54 @@ i.bi.bi-twitter-x:hover {
     margin-bottom: -11.5%;
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /*--------------------------------------------------------------
+  #  Navbar 
+  --------------------------------------------------------------*/
+  .navbar a, .navbar a:focus {
+    display: block;
+    align-items: center;
+    padding: 30px 0px;
+    font-family: var(--font-secondary);
+    border-bottom: none;
+    text-decoration: none;
+    color: #fff;
+  }
+  a.active {
+    color: #D1D5DB;
+    max-width: 100%;
+  }  
+/*--------------------------------------------------------------
+  #  Home Page 
+  --------------------------------------------------------------*/
+  .service-header .section-header {
+    text-align: center;
+  }
+  .service-header .section-header p {
+    width: 100%;
+  }
+  .services-card:hover {
+    background-color: unset;
+  }
+  .make-us-card:hover {
+    background-color: unset;
+  }
+  .map-content {
+    margin-top: 5%;
+  }
+  .projects .img-fluid {
+    width: 100%;
+  }
+  .project-card {
+    padding: 0px;
+  }
+  .join-us-sec .btn.btn-primary {
+    float: left;
+  }
+  .join-us-sec .btn-primary {
+    background-color: #1f2937;
+  }
+}  
 /*--------------------------------------------------------------
 # Logos slider
 --------------------------------------------------------------*/
