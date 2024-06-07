@@ -485,7 +485,7 @@ section#map {
   text-align: left;
   color: #fff;
   margin-bottom: 40px;
-  padding: 0px 25px;
+  padding: 25px 25px;
 }
 
 .services-card h4 {
@@ -1617,7 +1617,7 @@ i.bi.bi-twitter-x:hover {
     background-color: #1f2937;
   }
   .services-card {
-    padding: 0px;
+    padding: 25px 0px;;
   }
   .all-services {
     padding: 0px;
@@ -1693,9 +1693,6 @@ i.bi.bi-twitter-x:hover {
   }
   .make-us-card:hover {
     background-color: unset;
-  }
-  .make-us-haed, .col-lg-5, .make-us-card {
-    padding: 0px;
   }
   /*--------------------------------------------------------------
   #  Portfolio Page 
@@ -1990,6 +1987,22 @@ i.bi.bi-twitter-x:hover {
   }
   .join-us-sec .btn-primary {
     background-color: #1f2937;
+  }
+
+  /*--------------------------------------------------------------
+  #  about Page 
+  --------------------------------------------------------------*/
+
+  #about img {
+    height: 100%;
+    width: 100%;
+}
+  /*--------------------------------------------------------------
+  #  footer Page 
+  --------------------------------------------------------------*/
+  .footer_first figure.figure {
+    margin-right: -9%;
+    margin-bottom: -13.1%;
   }
 }  
 /*--------------------------------------------------------------
