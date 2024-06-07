@@ -118,8 +118,8 @@ p {
   text-decoration: none;
   line-height: 21px;
 }
-.container.top-boreder.fixed-top {
-  border-top: 8px solid #87FCFE;
+.top-boreder.fixed-top {
+  border-top: 5px solid #87FCFE;
 }
 /*--------------------------------------------------------------
 # Desktop Navigation
@@ -187,7 +187,7 @@ p {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #4B5563;
+    background-color:#87FCFE;
     transition: all 0.3s ease-in-out 0s;
   }
 
@@ -484,7 +484,6 @@ section#map {
 .services-card {
   text-align: left;
   color: #fff;
-  margin-bottom: 40px;
   padding: 25px 25px;
 }
 
